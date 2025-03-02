@@ -1,1 +1,1 @@
-https://ots-m.github.io/zakrivayuschiy-teg-f/
+https://github.com/ots-m/zakrivayuschiy-teg-f
