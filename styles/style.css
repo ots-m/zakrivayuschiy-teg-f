@@ -128,32 +128,36 @@
   inline-size: var(--main-article-width);
 }
 
-.mix__screen {
-  mix-blend-mode: screen;
+.filter__contrast {
+  filter: contrast(200%);
 }
 
-.mix__hard-light {
-  mix-blend-mode: hard-light;
+.filter__multiply {
+  filter: blur(1px) contrast(150%);
 }
 
-.mix__darken {
-  mix-blend-mode: darken;
+.filter__hue-rotate {
+ filter: hue-rotate(30deg);
 }
 
-.mix__exclusion {
-  mix-blend-mode: exclusion;
+.filter__brightness {
+  filter: brightness(70%);
 }
 
-.mix__multiply {
-  mix-blend-mode: multiply;
+.filter__invert {
+  filter: opacity(77%);
 }
 
-.mix__difference {
-  mix-blend-mode: difference;
+.filter__saturate {
+  filter: saturate(310%);
 }
 
-.mix__luminosity {
-  mix-blend-mode: luminosity;
+.filter__sepia {
+  filter: sepia(0.7);
+}
+
+.filter__grayscale {
+  filter: grayscale(70%);
 }
 
 
