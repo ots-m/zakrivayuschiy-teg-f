@@ -3,7 +3,6 @@
   --accent-font-family: PressStart2P;
   --main-text-weight: 400;
   --accent-text-weight: 700;
-  --main-width: clamp(23.438rem, 100vw + 0rem, 90rem);
   --main-article-width: clamp(23.438rem, 30.141vw + 16.373rem, 43.5rem);
   --main-color: #000;
   --contour-color: #000;
