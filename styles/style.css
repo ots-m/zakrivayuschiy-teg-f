@@ -64,7 +64,7 @@
 }
 
 .header_paragraph {
-  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);;
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   text-transform: uppercase;
 }
 
@@ -128,12 +128,12 @@
   inline-size: var(--main-article-width);
 }
 
-.mix__hard-light {
-  mix-blend-mode: hard-light;
+.mix__screen {
+  mix-blend-mode: screen;
 }
 
-.mix__normal {
-  mix-blend-mode: normal;
+.mix__hard-light {
+  mix-blend-mode: hard-light;
 }
 
 .mix__darken {
@@ -251,7 +251,7 @@
 }
 
 .like-icon:hover .core,
-.like-icon:hover .main-body  {
+.like-icon:hover .main-body {
   fill: var(--contour-color);
 }
 
