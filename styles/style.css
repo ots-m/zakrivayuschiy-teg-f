@@ -157,8 +157,9 @@
 
 .card__wrapper {
   display: flex;
-  gap: 12px;
-  margin: 0 25px 25px clamp(11.063rem, 30.516vw + 3.91rem, 31.375rem);
+  gap: 4px;
+  justify-content: end;
+  margin: 0 25px 25px clamp(11.063rem, 30.516vw + 3.91rem, 31.375rem);;
 }
 
 .button__design {
@@ -283,7 +284,7 @@
 
 .card__like-button {
   padding: 12.5px 37px;
-  max-inline-size: 120px;
+  min-inline-size: 130px;
   min-block-size: 42px;
 }
 
