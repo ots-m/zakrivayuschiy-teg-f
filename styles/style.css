@@ -158,7 +158,7 @@
 .card__wrapper {
   display: flex;
   gap: 12px;
-  margin: 0 25px 25px clamp(10.313rem, 30.516vw + 3.16rem, 30.625rem);
+  margin: 0 25px 25px clamp(11.063rem, 30.516vw + 3.91rem, 31.375rem);
 }
 
 .button__design {
