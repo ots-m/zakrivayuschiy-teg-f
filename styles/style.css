@@ -157,8 +157,8 @@
 
 .card__wrapper {
   display: flex;
-  gap: 4px;
   justify-content: end;
+  gap: 4px;
   margin: 0 25px 25px clamp(11.063rem, 30.516vw + 3.91rem, 31.375rem);;
 }
 
@@ -232,10 +232,12 @@
 
 .like-icon:hover .core {
   fill: var(--contour-color);
+  transition: fill 0.3s ease;
 }
 
 .like-icon:active .core {
-  fill: var(--main-body-color);;
+  fill: var(--main-body-color);
+  transition: fill 0.3s ease;
 }
 
 .like-icon.is-liked .core {
@@ -253,7 +255,7 @@
 
 .like-icon:active .main-body {
   fill: var(--main-body-color);
-  transition: fill 0.3s ease 0.05s;;
+  transition: fill 0.3s ease 0.05s;
 }
 
 .like-icon.is-liked .main-body {
@@ -263,15 +265,12 @@
 
 .contour {
   fill: var(--contour-color);
-  transition: fill 0.3s ease 0.06s;
+  transition: fill 0.1s linear;
 }
 
 .like-icon.is-liked .contour {
   fill: var(--main-body-color);
-}
-
-.like-icon:not(.is-liked) .contour {
-  transition: fill 0.1s linear;
+  transition: fill 0.3s ease 0.06s;
 }
 
 .sparks {
